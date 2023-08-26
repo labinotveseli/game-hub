@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 // import apiClient from "../helpers/api-client";
 import gamesList from "../helpers/apiData";
 // import { CanceledError } from "axios";
@@ -10,6 +10,7 @@ export interface Game {
     title: string;
     thumbnail: string;
     platform: string;
+    genre: string;
   }
 
   
